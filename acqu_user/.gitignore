@@ -1,0 +1,19 @@
+# ignore some commonly used 
+# data output/input folders
+# the "data" directory itself 
+# shall only contain 
+# configuration text files!
+/scratch
+/output
+/batch
+/Thread*.txt
+*.log
+/result
+/evgen/
+/simfiles/
+
+# AcquRoot histogram files
+/histograms
+
+#Farm job files
+/jobs
