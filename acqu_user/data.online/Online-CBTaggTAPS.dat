@@ -2,7 +2,7 @@
 ########################################################################
 ##
 ## Batch mode operation...redirect output directory for log files etc.
-BatchDir: /tmp/jrma/
+BatchDir: /scratch/chrism/RealData/AcquOutput/
 ##
 ##        Tree Name     	# branches	Process Type
 Name:     RawEvent_AR_Save	3		Raw
@@ -12,7 +12,7 @@ Branch:	  RawEvent_Scalers	4192
 Branch:	  Mk1_Header        120000
 ##
 ## Directory to save any created ROOT files (include final / )
-Directory: /scratch/
+Directory: /scratch/chrism/RealData/AcquOutput/
 ##
 ## Normally don't attempt to set eventsize manually
 ##EventSize: 32768
